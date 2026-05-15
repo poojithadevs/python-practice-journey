@@ -1,0 +1,12 @@
+name=input("enter your name:")
+#x=len(name)
+#x1=name.capitalize()
+#x2=name.lower()
+#x=name.upper()
+#x=name.rfind("o")
+#x=name.count("o")
+#x=name.isalpha()
+#x=name.isdigit()
+x=name.replace("o","x")
+print(x)
+
