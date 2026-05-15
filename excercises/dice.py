@@ -38,18 +38,19 @@ dice={
            "└──────────┘"  ),
 
 }     
-throws=[]  
+play=True  
 total=0
+print("---DICE ROLLER GAME---")
+while play:
+ throw_dice=input("throw the dice(y/n):").lower()
+ if throw_dice=="n":
+    print("--THANKS FOR PLAYING--")
+    break
+ else:
+    throws=random.randint(1,6)
+    total+=throws
+    for line in range(5):
+       print(dice[throws][line])
+    print(f"your score={total}")
 
-no_of_dice=int(input("how many u wanna throw?:"))
 
-for die in range(no_of_dice):
-    throws.append(random.randint(1,6))
-
-for die in range(no_of_dice):
-    for lines in dice.get(throws[die]):
-        print(lines)
-
-for die in throws:
-    total+=die
-print(f"total={total}")
