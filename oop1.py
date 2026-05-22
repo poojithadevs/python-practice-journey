@@ -1,4 +1,5 @@
 class car:
+ name="pooja"
  def __init__(self,brand,model,color,year,for_sale):
   self.brand=brand
   self.model=model
@@ -11,3 +12,4 @@ class car:
 
  def manufacture(self):
   print(f"the {self.brand} {self.model} is made in japan")
+  

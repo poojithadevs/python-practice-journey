@@ -19,7 +19,7 @@ for char in original_text:
 print(f"encrypted text={encrypted_text}")
 
 print("***************************************")
-en_text=input("entre encrypted_text fro decryption:")
+en_text=input("entre encrypted_text for decryption:")
 de_text=""
 
 for char in en_text:

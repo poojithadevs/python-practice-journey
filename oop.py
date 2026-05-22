@@ -20,3 +20,5 @@ print(car2.year)
 print(car2.for_sale)
 car2.drive()
 car2.manufacture()
+#class variable
+print(car.name)
